@@ -1,6 +1,5 @@
 import {
   faBoxArchive,
-  faCaretDown,
   faCopy,
   faPencil,
 } from "@fortawesome/free-solid-svg-icons";

@@ -1,5 +1,5 @@
-import React, { useEffect } from "react";
-import { Route, Routes, useNavigate } from "react-router-dom";
+import React from "react";
+import { Route, Routes } from "react-router-dom";
 import Categories from "../../../Components/Categories/Categories";
 import Documents from "../../../Components/Documents/Documents";
 import Emails from "../../../Components/Emails/Emails";

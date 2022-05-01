@@ -3,7 +3,6 @@ import { useSelector } from "react-redux";
 import Card from "../../UI/Card";
 import QuestionariesItem from "../QuestionariesItem/QuestionariesItem";
 import Headers from "../Template-Headers/Headers";
-import classes from "./Questionaries.module.css";
 
 const Questionaries = () => {
   const questionaries = useSelector((state) => state.template.questionaries);
