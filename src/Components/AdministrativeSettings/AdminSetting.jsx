@@ -1,11 +1,12 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
+import PageHeader from "../../UI/PageHeader";
 import classes from "./AdminSetting.module.css";
 
 const AdminSetting = () => {
   const location = useLocation();
   return (
-    <div className={`${classes.AdminSetting} container`}>
+    <PageHeader className={`container`}>
       <div className={`${classes.AdminSetting__label} fs-3`}>
         Administrative Settings
       </div>
@@ -63,7 +64,7 @@ const AdminSetting = () => {
           </Link>
         </li>
       </ul>
-    </div>
+    </PageHeader>
   );
 };
 

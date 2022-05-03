@@ -16,17 +16,15 @@ const Navbar = () => {
     <nav className={` navbar ${classes.navbar} `}>
       <div className={`${classes.nav_text_links} `}>
         <div className={classes.logo}>
-          <Link to="/" className={classes.link_logo}> Jazz</Link>
+          <Link to="/" className={classes.link_logo}>
+            {/* <img src={ethiion} alt=""  className={classes.ethiion}/> */}
+            Ethiion
+          </Link>
         </div>
         <ul className={`${classes.lists}`}>
           <li className={`${classes.list} navbar-item`}>
-            <Link className={classes.link} to="/dashboard">
-              DashBoard
-            </Link>
-          </li>
-          <li className={`${classes.list} navbar-item`}>
-            <Link className={classes.link} to="/jobs">
-              Jobs
+            <Link className={classes.link} to="/applications">
+              Applications
             </Link>
           </li>
           <li className={classes.list}>
@@ -34,11 +32,11 @@ const Navbar = () => {
               canidates
             </Link>
           </li>
-          <li className={classes.list}>
+          {/* <li className={classes.list}>
             <Link className={classes.link} to="/people">
               people
             </Link>
-          </li>
+          </li> */}
           <li className={classes.list}>
             <Link className={classes.link} to="/reports">
               reports
@@ -55,27 +53,23 @@ const Navbar = () => {
         <ul className={classes.nav__list__icons}>
           <li className={classes.list__icons}>
             <Link className={classes.link} to="/">
-              <FontAwesomeIcon icon={faEye} />
+              <FontAwesomeIcon icon={faEye} /> 1
             </Link>
-            1
           </li>
           <li className={classes.list__icons}>
             <Link className={classes.link} to="/">
-              <FontAwesomeIcon icon={faCheck} />{" "}
+              <FontAwesomeIcon icon={faCheck} /> 0
             </Link>
-            0
           </li>
           <li className={classes.list__icons}>
             <Link className={classes.link} to="/">
-              <FontAwesomeIcon icon={faCalendarDays} />{" "}
+              <FontAwesomeIcon icon={faCalendarDays} /> 1
             </Link>{" "}
-            1
           </li>
           <li className={classes.list__icons}>
             <Link className={classes.link} to="/">
-              <FontAwesomeIcon icon={faInbox} />{" "}
+              <FontAwesomeIcon icon={faInbox} /> 0
             </Link>
-            0
           </li>
 
           <li className={classes.list__icons}>

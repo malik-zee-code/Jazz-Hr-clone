@@ -1,8 +1,9 @@
 .navbar {
-  background: linear-gradient(45deg, purple, #7c5ae9);
+  background: linear-gradient(45deg, #0aa1dd, #7162f8);
   padding-bottom: 0px;
   position: sticky;
   justify-content: center;
+  transition: all 0.1s ease-in;
 }
 .nav__link__icons,
 .nav_text_links {
@@ -17,15 +18,20 @@
 }
 
 .logo {
-  font-size: 24px;
   margin-left: 40px;
   font-weight: 800;
   color: white;
   cursor: pointer;
 }
+.ethiion {
+  width: 80px;
+  height: 30px;
+}
 .link_logo {
   text-decoration: none;
-  color: white;
+  color: rgb(245, 241, 245);
+  font-family: 'Righteous', cursive;
+  font-size: 34px;
 }
 .link_logo:hover {
   color: white;
@@ -36,7 +42,7 @@
   text-transform: uppercase;
   font-size: 12px;
   font-weight: 500;
-  color: #ccc;
+  color: rgb(183, 237, 255);
 }
 
 .list__icons {
@@ -65,8 +71,33 @@
 }
 .link {
   text-decoration: none;
-  color: rgba(237, 206, 255, 0.461);
+  color: rgb(151, 245, 255);
 }
 .link:hover {
   color: aliceblue;
+}
+
+
+@media screen and (max-width: 556px) {
+  .nav_text_links,
+  .link {
+    font-size: 9px;
+    transition: all 0.2s ease-in;
+  }
+  .nav__link__icons {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 777px) {
+  .container {
+    width: 30vw;
+  }
+}
+
+@media screen and (max-width: 581px) {
+  .container {
+    width: 35vw;
+    font-size: 10px;
+  }
 }

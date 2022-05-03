@@ -34,7 +34,7 @@
   color: rgb(79, 79, 79);
 }
 .active {
-  background-color: rgb(102, 39, 174);
+  background-color: #0aa1dd;
   color: white !important;
   /* color: white; */
 }

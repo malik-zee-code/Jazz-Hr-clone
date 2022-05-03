@@ -1,0 +1,32 @@
+hr {
+  height: 0.5px !important;
+  color: black;
+  opacity: 1;
+  width: 10%;
+  position: absolute;
+}
+
+.flow {
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 150px;
+}
+
+.box {
+  position: relative;
+  background-color: white;
+  top: 35.5%;
+  min-width: 80px;
+  height: 30px;
+  border: 1px solid black;
+  z-index: 3;
+  border-radius: 6px;
+  margin-left: 5px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.green{
+  background-color: rgb(53, 192, 19);
+}
